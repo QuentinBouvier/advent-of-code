@@ -16,7 +16,7 @@
             "environment": [
                 {
                     "name": "AOC_DAY",
-                    "value": "1"
+                    "value": "2"
                 }
             ],
             "cwd": "${workspaceFolder}",
