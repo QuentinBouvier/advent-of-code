@@ -5,7 +5,7 @@
             "label": "C/C++: g++ build program",
             "command": "make",
             "args": [
-                "ARGS=\"-d1\""
+                "ARGS=\"-d2\""
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

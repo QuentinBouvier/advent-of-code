@@ -1,11 +1,9 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include "day1.h"
 
-void part1(std::ifstream &input);
-void part2(std::ifstream &input);
-
-void day1()
+void day1::day1()
 {
     std::ifstream input("day1/input.txt");
     std::ifstream example("day1/example.txt");
@@ -16,11 +14,11 @@ void day1()
         return;
     }
 
-    part1(input);
-    part2(input);
+    day1::part1(input);
+    day1::part2(input);
 }
 
-void part2(std::ifstream &input)
+void day1::part2(std::ifstream &input)
 {
     std::cout << "Part 2:\n";
     std::string line;
@@ -54,7 +52,7 @@ void part2(std::ifstream &input)
     std::cout << "Number of times rotation is zero: " << zeros << "\n\n";
 }
 
-void part1(std::ifstream &input)
+void day1::part1(std::ifstream &input)
 {
     std::cout << "Part 1:\n";
     std::string line;
