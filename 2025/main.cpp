@@ -3,6 +3,7 @@
 #include <string>
 #include "day1/day1.h"
 #include "day2/day2.h"
+#include "day3/day3.h"
 
 void runDay(const int day)
 {
@@ -12,6 +13,9 @@ void runDay(const int day)
             return;
         case 2:
             day2::day2();
+            return;
+        case 3:
+            day3::day3();
             return;
         default:
             std::cout << "Day not implemented\n";

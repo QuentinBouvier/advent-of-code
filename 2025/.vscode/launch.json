@@ -9,14 +9,11 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/bin/aoc",
-            "args": [
-                "arg1",
-                "arg2"
-            ],
+            "args": [],
             "environment": [
                 {
                     "name": "AOC_DAY",
-                    "value": "2"
+                    "value": "3"
                 }
             ],
             "cwd": "${workspaceFolder}",

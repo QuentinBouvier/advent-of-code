@@ -4,9 +4,7 @@
             "type": "cppbuild",
             "label": "C/C++: g++ build program",
             "command": "make",
-            "args": [
-                "ARGS=\"-d2\""
-            ],
+            "args": [],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
